@@ -44,7 +44,7 @@ public class Arm {
 	 * are in relation to camera and set r to be correct
 	 */
 	public Arm() {
-		xm1 = 290; // set motor coordinates
+		xm1 = 291; // set motor coordinates
 		ym1 = 372;
 		xm2 = 379;
 		ym2 = 374;
