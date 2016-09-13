@@ -155,7 +155,9 @@ public class Arm {
 	public void inverseKinematic(double xt_new, double yt_new) {
 
 		valid_state = true;
-		
+		xt = xt_new;
+		yt = yt_new;
+		valid_state = true;
 
 		// Finds the gradient, mid point and length between motor1 and pen/tool
 		// change in x coordinates
