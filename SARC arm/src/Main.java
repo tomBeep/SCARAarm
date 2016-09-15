@@ -29,6 +29,7 @@ public class Main{
     /**      */
     public Main(){
         UI.initialise();
+        UI.setWindowSize(1200, 800);
         UI.addButton("xy to angles", this::inverse);
         UI.addButton("Enter path XY", this::enter_path_xy);
         UI.addButton("Save path XY", this::save_xy);
