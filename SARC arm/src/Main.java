@@ -36,6 +36,7 @@ public class Main{
         UI.addButton("Load path XY", this::load_xy);
         UI.addButton("Save path Ang", this::save_ang);
         UI.addButton("Load path Ang:Play", this::load_ang);
+        UI.addButton("SEND thing", this::doThing);
                 
        // UI.addButton("Quit", UI::quit);
         UI.setMouseMotionListener(this::doMouse);
@@ -48,6 +49,10 @@ public class Main{
         this.drawing = new Drawing();
         this.run();
         arm.draw();
+    }
+    
+    public void doThing(){
+    	
     }
     
     public void doKeys(String action){
